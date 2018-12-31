@@ -10,7 +10,9 @@ int main(int arg, char** argv)
 	printf("Starting Engine");
 	auto app = DUB_ENG::CreateApplication();
 	app->Run();
+
 	delete app;
+	return 0;
 }
 
 #endif // DEBUG
